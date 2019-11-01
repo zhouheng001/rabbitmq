@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/tulingvip-rabbitmq-quickstart/tulingvip-rabbitmq-quickstart.iml" filepath="$PROJECT_DIR$/tulingvip-rabbitmq-quickstart/tulingvip-rabbitmq-quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/tulingvip-rabbitmq-springwithrabbitmq/tulingvip-rabbitmq-springwithrabbitmq.iml" filepath="$PROJECT_DIR$/tulingvip-rabbitmq-springwithrabbitmq/tulingvip-rabbitmq-springwithrabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/tulingvip-springboot-rabbitmq-consumer/tulingvip-springboot-rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/tulingvip-springboot-rabbitmq-consumer/tulingvip-springboot-rabbitmq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingvip-springboot-rabbitmq-consumer/tulingvip-springboot-rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/tulingvip-springboot-rabbitmq-consumer/tulingvip-springboot-rabbitmq-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/tulingvip-springboot-rabbitmq-producer/tulingvip-springboot-rabbitmq-producer.iml" filepath="$PROJECT_DIR$/tulingvip-springboot-rabbitmq-producer/tulingvip-springboot-rabbitmq-producer.iml" />
     </modules>
   </component>

@@ -4,8 +4,8 @@ spring:
   datasource:
       druid:
         username: root
-        password: Zw726515
-        jdbcUrl: jdbc:mysql://localhost:3306/tuling-mq
+        password: 2574055zh;
+        jdbcUrl: jdbc:mysql://47.94.103.156:3306/rabbitmq
         driverClassName: com.mysql.jdbc.Driver
         initialSize: 5
         minIdle: 5
