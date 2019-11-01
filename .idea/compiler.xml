@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mq-reliabledelivery-dtt-order" />
         <module name="tuling-reliabledelivery-deleycheck-product (1)" />
-        <module name="tulingvip-rabbitmq" />
         <module name="tulingvip-rabbitmq-quickstart" />
         <module name="tuling-reliabledelivery-dtt-product" />
         <module name="tulingvip-rabbitmq-springwithrabbitmq" />

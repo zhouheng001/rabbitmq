@@ -12,11 +12,25 @@
 	<artifactId>tulingvip-rabbitmq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>tulingvip-rabbitmq</name>
+	<packaging>pom</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+
+	<modules>
+		<module>mq-reliabledelivery-dtt-order</module>
+		<module>mq-reliabledelivery-deleycheck-order</module>
+		<module>tuling-reliabledelivery-deleycheck-callback</module>
+		<module>tuling-reliabledelivery-deleycheck-product</module>
+		<module>tuling-reliabledelivery-dtt-product</module>
+		<module>tulingvip-rabbitmq-advancedfeatures</module>
+		<module>tulingvip-rabbitmq-quickstart</module>
+		<module>tulingvip-rabbitmq-springwithrabbitmq</module>
+		<module>tulingvip-springboot-rabbitmq-consumer</module>
+		<module>tulingvip-springboot-rabbitmq-producer</module>
+	</modules>
 
 	<dependencies>
 		<dependency>

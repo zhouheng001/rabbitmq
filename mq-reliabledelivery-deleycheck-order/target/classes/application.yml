@@ -1,5 +1,5 @@
 
-#ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½
+#Êı¾İÔ´ÅäÖÃ
 spring:
   datasource:
       druid:
@@ -22,7 +22,7 @@ spring:
         maxPoolPreparedStatementPerConnectionSize: 20
         useGlobalDataSourceStat: true
         connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
-  #rabbitmqï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  #rabbitmqÉú²ú¶ËÅäÖÃ
   rabbitmq:
     host: 192.168.159.8
     port: 5672
@@ -31,13 +31,13 @@ spring:
     password: smlz
     publisher-confirms: true
     publisher-returns: true
-    #ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½É´ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½É¾ï¿½ï¿½
+    #·ÀÖ¹²»¿É´ïÏûÏ¢±»É¾³ı
     template:
       mandatory: true
     connection-timeout: 1000000
 
 
-#ï¿½ï¿½ï¿½ï¿½mybatis
+#ÅäÖÃmybatis
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:

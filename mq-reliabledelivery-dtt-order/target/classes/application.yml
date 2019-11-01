@@ -1,43 +1,43 @@
 
-#ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½
+#Êý¾ÝÔ´ÅäÖÃ
 spring:
   datasource:
       druid:
         username: root
-        password: Zw726515
-        jdbcUrl: jdbc:mysql://localhost:3306/tuling-mq
+        password: 2574055zh;
+        jdbcUrl: jdbc:mysql://47.94.103.156:3306/rabbitmq
         driverClassName: com.mysql.jdbc.Driver
         initialSize: 5
         minIdle: 5
         maxActive: 20
         maxWait: 60000
-        timeBetweenEvictionRunsMillis: 60000
-        minEvictableIdleTimeMillis: 300000
-        validationQuery: SELECT 1 FROM DUAL
-        testWhileIdle: true
-        testOnBorrow: false
-        testOnReturn: false
+#        timeBetweenEvictionRunsMillis: 60000
+#        minEvictableIdleTimeMillis: 300000
+#        validationQuery: SELECT 1 FROM DUAL
+#        testWhileIdle: true
+#        testOnBorrow: false
+#        testOnReturn: false
         poolPreparedStatements: true
         filters: stat,wall #\u914D\u7F6E\u8FC7\u6EE4\u5668
-        maxPoolPreparedStatementPerConnectionSize: 20
-        useGlobalDataSourceStat: true
-        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
-  #rabbitmqï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#        maxPoolPreparedStatementPerConnectionSize: 20
+#        useGlobalDataSourceStat: true
+#        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  #rabbitmqÉú²ú¶ËÅäÖÃ
   rabbitmq:
-    host: 192.168.159.8
+    host: 47.94.103.156
     port: 5672
-    virtual-host: tuling
-    username: smlz
-    password: smlz
+    virtual-host: rabbitmq-exchange
+    username: guest
+    password: guest
     publisher-confirms: true
     publisher-returns: true
-    #ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½É´ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½É¾ï¿½ï¿½
+    #·ÀÖ¹²»¿É´ïÏûÏ¢±»É¾³ý
     template:
       mandatory: true
     connection-timeout: 1000000
 
 
-#ï¿½ï¿½ï¿½ï¿½mybatis
+#ÅäÖÃmybatis
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:

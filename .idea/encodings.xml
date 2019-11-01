@@ -3,15 +3,19 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq-reliabledelivery-deleycheck-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq-reliabledelivery-deleycheck-order/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/mq-reliabledelivery-dtt-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq-reliabledelivery-dtt-order/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/mq-reliabledelivery-dtt-order/target/classes/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/tuling-reliabledelivery-deleycheck-callback" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tuling-reliabledelivery-deleycheck-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuling-reliabledelivery-deleycheck-product/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/tuling-reliabledelivery-dtt-product" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tulingvip-rabbitmq-advancedfeatures" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tulingvip-rabbitmq-quickstart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tulingvip-rabbitmq-springwithrabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tulingvip-springboot-rabbitmq-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tulingvip-springboot-rabbitmq-producer" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>
